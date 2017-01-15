@@ -1,0 +1,408 @@
+food,kind,p1,p2,p3
+Pomegranates,F,P1
+Pineapples,F,P1
+turkey ,AP,P1
+Coconut  coconut,F,P3
+Horseradish ,G,P3
+Horseradish ,C,P1,P2
+Lemons,F,P1,P2,P3
+pepper flakes ,C,P1,P2
+Chicory (curly,V,P3
+sea salt  Simply,G,P3
+sea salt  Simply,C,P1
+pretzels  tortillas,G,P1
+garbanzo beans,VP,P1,P3
+unsweetened,VP,P3
+Cucumbers  any,V,P2
+Flounder fillet,AP,P2
+turkey  corned,AP,P2
+pinto  white  lima ,VP,P3
+Lettuce (any,V,P1,P2,P3
+cinnamon  chili,G,P3
+sesame  sunflower,FT,P3
+Nut flours,G,P1
+acids  tamari,G,P3
+acids  tamari,C,P1,P2
+Vanilla or,G,P3
+Vanilla or,C,P1,P2
+red pepper flakes ,G,P3
+Lentils,VP,P3
+meat  lean ground,AP,P1,P2
+beef  chicken ,AP,P2
+Pork: chops  loin,AP,P3
+Herring,AP,P3
+Cauliflower florets,V,P3
+seasonings: Bragg,G,P3
+seasonings: Bragg,C,P1,P2
+Bean sprouts,V,P3
+Tuna  solid white ,AP,P1
+Pero,G,P3
+Pero,C,P1,P2
+Kamut: bagels,G,P1
+Fava beans  fresh,VP,P1
+Garlic  fresh,G,P3
+Garlic  fresh,C,P1
+Spinach,V,P1,P2,P3
+Salsa,G,P3
+Salsa,C,P1
+seasoning,C,P2
+Teff,G,P1
+Lamb,AP,P3
+Lobster meat,AP,P3
+Broccoli florets,V,P1,P2
+Turkey bacon ,AP,P1,P2,P3
+Watermelon,F,P1
+Dried herbs: all,G,P3
+Dried herbs: all,C,P1,P2
+round  plum ,V,P3
+steak,AP,P1
+Chana dal/lentils,VP,P1
+Olives  any type,V,P3
+Seaweed,V,P3
+Turnips,V,P1
+Sweeteners:,G,P3
+Sweeteners:,C,P1,P2
+nitratefree,AP,P1
+Fennel,V,P2,P3
+Avocados,V,P3
+Avocados,FT,P3
+Green chiles,V,P1,P3
+in olive oil,AP,P3
+Barley,G,P1
+yams,V,P1,P3
+broil  round steak ,AP,P2
+(birch or,G,P3
+(birch or,C,P1,P2
+powder  nutmeg ,C,P1
+beans: adzuki ,VP,P1,P3
+Apples,F,P1
+Arrowroot,V,P1,P2,P3
+Arrowroot,G,P1
+Great Northern ,VP,P3
+cannellini  kidney ,VP,P3
+Rhubarb,V,P2,P3
+Rhubarb,F,P3
+phase,FT,P1
+Haddock fillet,AP,P1
+Pork: loin roast ,AP,P2
+milk  cream  water,F,P3
+black and,G,P3
+black and,C,P1
+Peppers: bell ,V,P1,P2,P3
+Beef  all lean cuts:,AP,P2
+Buffalo meat ,AP,P1
+None for this,FT,P1
+Oats: steelcut,G,P1
+Game: venison ,AP,P2
+Apricots,F,P1
+hardwood only),G,P3
+hardwood only),C,P1,P2
+vegetable*,G,P3
+vegetable*,C,P1,P2
+nitrate-free,AP,P2,P3
+powder  raw,C,P2
+Guava,F,P1
+Rutabaga,V,P1
+Black-eyed peas,VP,P1
+turkey  chicken ,AP,P1,P3
+nitrate-free:,AP,P1,P3
+great northern ,VP,P1
+Mangos,F,P1
+roots,V,P3
+raspberries,F,P1
+Sprouts,V,P1,P3
+(except rice),G,P3
+(except rice),C,P2
+Nut/seed butters,FT,P3
+unsweetened ,VP,P3
+peppermint,G,P3
+peppermint,C,P1,P2
+Organic seasoning,G,P3
+Organic seasoning,C,P1
+bagels  bread ,G,P1
+Green chiles ,V,P2
+Artichokes,V,P3
+Liver,AP,P3
+Beets: greens ,V,P3
+Game: partridge ,AP,P1
+safflower,FT,P3
+white peppers ,G,P3
+white peppers ,C,P1
+Deli meats ,AP,P1,P2,P3
+meat,AP,P1,P2
+Grapefruit,F,P1,P3
+Celery,V,P2,P3
+Tahini,FT,P3
+sesame (Asian),FT,P3
+skinless white,AP,P2
+Celery  including,V,P1
+lean ground,AP,P3
+Mustard:,C,P1,P2
+nuts  pistachios ,FT,P3
+powder  onion,G,P3
+Figs,F,P1
+Dried or canned,VP,P1
+cinnamon ,C,P1,P2
+Cod/scrod fillet,AP,P2
+nitrate-free: roast,AP,P2
+prepared,G,P3
+prepared,C,P1,P2
+pinto  white,VP,P1
+endive),V,P3
+steak  London,AP,P2
+Oils: coconut ,FT,P3
+turkey  elk  ostrich,AP,P2
+yellow (wax) ,V,P1,P2,P3
+mulberries ,F,P1
+Lamb  lean cuts,AP,P2
+Beans: green ,V,P1,P2,P3
+Oranges,F,P1
+Bok choy,V,P3
+boneless white,AP,P1
+Dory fish fillet,AP,P2
+Blackberries,F,P3
+Mustard greens,V,P2
+Noncaffeinated,G,P3
+Noncaffeinated,C,P1,P2
+Oysters,AP,P3
+Mixed greens,V,P1,P2,P3
+pecans  pine,FT,P3
+Turkey: breast,AP,P1,P2
+and pastes  raw,FT,P3
+Shrimp,AP,P3
+paste  chipotle ,C,P2
+Crab  lump meat,AP,P3
+None this phase,G,P2
+None this phase,FT,P2
+None this phase,VP,P2
+Almond milk ,VP,P3
+Kohlrabi,V,P3
+Pears,F,P1
+Amaranth,G,P1
+Clams,AP,P3
+almonds  cashews ,FT,P3
+Seeds  raw: flax ,FT,P3
+salt  sea salt ,C,P2
+Guinea fowl,AP,P1
+Limes,F,P1,P2,P3
+Carrots,V,P1,P3
+Chicken: boneless ,AP,P2,P3
+filet  tenderloin ,AP,P2
+Zucchini and,V,P1,P3
+Sproutedgrain:,G,P1
+Mushrooms,V,P1,P2,P3
+Oysters  packed in,AP,P2
+Sole fillet,AP,P1,P2
+Endive,V,P2,P3
+Wild rice,G,P1
+Wild rice,C,P3
+Kiwis,F,P1
+Oats: steel-cut ,C,P3
+sesame  toasted,FT,P3
+Sprouted-grain:,C,P3
+Onions,V,P3
+French (string),V,P2,P3
+Mustard ,G,P3
+Tomatoes  fresh,V,P3
+cumin  curry,G,P3
+cumin  curry,C,P1,P2
+water,AP,P2
+smoked,AP,P2,P3
+Mayonnaise ,FT,P3
+Halibut fillet,AP,P2,P3
+beef  buffalo ,AP,P2
+Liquid Aminos ,G,P3
+Liquid Aminos ,C,P1,P2
+Peas: snap  snow,V,P1
+flour  pasta ,G,P1
+roast,AP,P3
+Jicama,V,P1,P2,P3
+corned beef  roast,AP,P1
+Bamboo shoots,V,P1
+kidney  lima  navy ,VP,P1
+Natural,G,P3
+Natural,C,P1,P2
+Okra,V,P3
+cereal  crackers ,G,P1
+added,G,P3
+added,C,P1,P2
+salt  raw cacao,G,P3
+Brown rice: rice ,G,P1
+black  butter ,VP,P1,P3
+sugar added,G,P3
+Papaya,F,P1
+Cucumbers,V,P1,P3
+navy,VP,P3
+Tomatoes,V,P1
+Beef: filet  steaks ,AP,P3
+peppers  cayenne ,C,P2
+ground,AP,P1,P2,P3
+Salmon  fresh ,AP,P3
+Trout,AP,P3
+beef,AP,P1,P2
+Pollock fillet,AP,P1
+Brussels sprouts,V,P3
+almond cheese ,VP,P3
+Chickpeas/,VP,P1,P3
+Brown rice cheese,G,P1
+cherry,V,P3
+Arugula,V,P1,P2,P3
+Pumpkin,V,P1
+Salmon: nitratefree,AP,P2
+Peaches,F,P1,P3
+Green onions,V,P1,P2,P3
+hemp  pumpkin ,FT,P3
+prepared  dry,G,P3
+prepared  dry,C,P1,P2
+Game: pheasant,AP,P3
+Cantaloupe,F,P1
+Ginger  fresh,G,P3
+Ginger  fresh,C,P1,P2
+steaks  lean,AP,P2
+yellow,V,P1,P2
+syrup,G,P3
+syrup,C,P1
+Simply Organic,C,P2
+chicken,AP,P1
+herbal teas or,G,P3
+herbal teas or,C,P1,P2
+walnuts,FT,P3
+added  no corn,G,P3
+added  no corn,C,P1
+Tapioca,G,P1
+chili powder  chili,C,P2
+Spirulina,V,P1,P2,P3
+or white meat ,AP,P3
+Radishes,V,P3
+skinless dark,AP,P3
+Barley  black or,C,P3
+bread  bagels ,C,P3
+Strawberries,F,P1
+Collard greens,V,P2,P3
+Parsnips,V,P1
+Dried (or canned),VP,P3
+black and white,C,P2
+frozen  or nitratefree,AP,P3
+Sardines  packed,AP,P1,P2,P3
+Shallots,V,P2
+Beef: filet  lean,AP,P1
+tortillas,G,P1
+tortillas,C,P3
+Stevia  Xylitol,G,P3
+Stevia  Xylitol,C,P1,P2
+powdered,C,P2
+cacao powder ,C,P1,P2
+Blueberries,F,P3
+powder  turmeric ,G,P3
+pepperoncini,V,P1,P2,P3
+ostrich  elk,AP,P2
+Sweet potatoes/,V,P1,P3
+Cherries,F,P1,P3
+Pickles  no sugar,G,P3
+Pickles  no sugar,C,P1,P2
+strip  sirloin  shell,AP,P2
+Buckwheat,G,P1
+except iceberg),V,P1,P2,P3
+Berries:,F,P1
+Eggs  whites only,AP,P1,P2
+in water,AP,P1,P2
+chili powder ,C,P1
+Millet,G,P1
+or canned,VP,P1
+Carob chips,G,P3
+grapeseed  olive ,FT,P3
+Asparagus,V,P2,P3
+old-fashioned,C,P3
+Tomato sauce  no,G,P3
+summer squash,V,P1,P3
+Broths: beef ,G,P3
+Broths: beef ,C,P1,P2
+Tomato paste,G,P3
+Tomato paste,C,P1
+Kumquats,F,P1
+chicken ,G,P3
+chicken ,AP,P3
+chicken ,C,P1,P2
+packed in water,AP,P1
+Vinegar: any type,G,P3
+Vinegar: any type,C,P1,P2
+hazelnuts ,FT,P3
+or milk,G,P1
+nutmeg  onion,C,P2
+blackberries ,F,P1
+water or oil,AP,P3
+Spelt: pasta ,G,P1
+Buffalo meat,AP,P2,P3
+Jerky  nitrate-free:,AP,P2
+type,V,P2
+Sausages  nitratefree:,AP,P1
+Sea bass fillet,AP,P3
+Cashew milk,VP,P3
+Prickly pears,F,P3
+Plums,F,P3
+tenderloin,AP,P2
+Scallops,AP,P3
+Tangerines,F,P1
+Asian pears,F,P1
+Leeks,V,P1,P2,P3
+Ketchup  no sugar,G,P3
+Ketchup  no sugar,C,P1
+Watercress,V,P2,P3
+Eggplant,V,P1,P3
+Hummus,FT,P3
+Halibut: fillet ,AP,P1
+Raspberries,F,P3
+Hearts of palm,V,P3
+French,V,P1
+Turkey,AP,P3
+Cabbage  all types,V,P1,P2,P3
+Rice milk  plain,G,P1
+powder  crushed,G,P3
+types,G,P3
+types,C,P1,P2
+Brewer’s yeast,G,P3
+Brewer’s yeast,C,P1,P2
+Swiss chard,V,P2
+roast beef,AP,P3
+winter or yellow,V,P1,P3
+blueberries ,F,P1
+Honeydew melon,F,P1
+and canned:,V,P3
+Beets,V,P1
+Cranberries,F,P3
+white,C,P3
+Pork: tenderloin,AP,P1
+Chicken: skinless ,AP,P1
+Hemp milk ,VP,P3
+Quinoa,G,P1
+Quinoa,C,P3
+Tabasco,C,P2
+Eggs  whole,AP,P3
+tops,V,P1
+Fresh herbs: all,G,P3
+Fresh herbs: all,C,P1,P2
+Seasonings:,G,P3
+Seasonings:,C,P1,P2
+Sausage  nitratefree:,AP,P3
+corned beef ,AP,P3
+Onions  red and,V,P1,P2
+Calamari,AP,P3
+onion salt  raw,C,P1
+extract,G,P3
+extract,C,P1,P2
+Skate,AP,P3
+Tuna  packed in,AP,P2,P3
+Triticale,G,P1
+Rabbit,AP,P3
+rump roast  stew,AP,P2
+coconut amino,G,P3
+coconut amino,C,P1,P2
+turkey,AP,P3
+crushed red,C,P1,P2
+jalapeños,V,P2
+almond flour,VP,P3
+Nuts  raw:,FT,P3
+pheasant,AP,P1
+Garlic  fresh ,C,P2
+Loganberries,F,P1
+Kale,V,P1,P2,P3
