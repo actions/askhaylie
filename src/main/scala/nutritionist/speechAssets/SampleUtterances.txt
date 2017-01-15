@@ -1,0 +1,6 @@
+CanIEatThatIntent Can I eat {Food}
+CanIEatThatIntent Can I eat {Food} on {Phase}
+CanIEatThatIntent Can I eat {Food} while on {Phase}
+CanIEatThatIntent Can I eat {Food} on {Phase}
+CanIEatThatIntent if I can eat {Food}
+CanIEatThatIntent if I can eat {Food} while on {Phase}

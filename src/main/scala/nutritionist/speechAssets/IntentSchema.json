@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "CanIEatThatIntent",
+      "slots": [
+        {
+          "name": "Food",
+          "type": "AMAZON.Food"
+        },
+        {
+          "name": "Phase",
+          "type": "PHASES"
+        }
+      ]
+    }]
+}
