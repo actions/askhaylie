@@ -1,0 +1,304 @@
+food,type,p1,p2,p3
+(birch or,G,0,0,1
+(except rice),G,0,0,1
+(except rice),C,0,1,0
+acids  tamari,C,1,1,0
+acids  tamari,G,0,0,1
+added,C,1,1,0
+added,G,0,0,1
+added  no corn,C,1,0,0
+added  no corn,G,0,0,1
+almond cheese ,VP,0,0,1
+almond flour,G,0,0,1
+almond milk ,C,0,0,1
+almonds  cashews ,FT,0,0,1
+amaranth,G,1,0,0
+and pastes  raw,FT,0,0,1
+apples,F,1,0,0
+apricots,F,1,0,0
+arrowroot,V,1,1,1
+arrowroot,G,1,0,0
+artichokes,V,0,0,1
+arugula,V,1,1,1
+asian pears,F,1,0,0
+asparagus,V,0,1,1
+avocados,V,0,0,1
+avocados,FT,0,0,1
+bagels  bread ,G,1,0,0
+bamboo shoots,V,1,0,0
+barley,G,1,0,0
+barley  black or,C,0,0,1
+bean sprouts,V,0,0,1
+beans,V,1,1,1
+adzuki beans,VP,1,0,1
+beef,AP,1,1,1
+beef stew,AP,0,1,0
+beets,V,1,0,1
+berries:,F,1,0,0
+black butter ,VP,1,0,1
+black and,C,1,0,0
+black and,G,0,0,1
+black and white,C,0,1,0
+black-eyed peas,VP,1,0,0
+blackberries,F,0,0,1
+blackberries ,F,1,0,0
+blueberries,F,0,0,1
+blueberries ,F,1,0,0
+bok choy,V,0,0,1
+boneless white,AP,1,0,0
+bread  bagels ,C,0,0,1
+brewer’s yeast,C,1,1,0
+brewer’s yeast,G,0,0,1
+broccoli florets,V,1,1,0
+broil  round steak ,AP,0,1,0
+broths: beef ,C,1,1,0
+broths: beef ,G,0,0,1
+brown rice cheese,G,1,0,0
+brown rice: rice ,G,1,0,0
+brussels sprouts,V,0,0,1
+buckwheat,G,1,0,0
+buffalo,AP,1,1,1
+cabbage,V,1,1,1
+cacao powder ,C,1,1,0
+calamari,AP,0,0,1
+cannellini kidney ,VP,0,0,1
+cantaloupe,F,1,0,0
+carob chips,G,0,0,1
+carrots,V,1,0,1
+cashew milk,VP,0,0,1
+cauliflower,V,0,0,1
+celery,V,1,1,1
+cereal  crackers ,G,1,0,0
+chana dal/lentils,VP,1,0,0
+cherries,F,1,0,1
+chicken,AP,1,1,1
+chickpeas,VP,1,0,1
+chicory,V,0,0,1
+chili powder ,C,1,0,0
+chili powder  chili,C,0,1,0
+cinnamon ,C,1,1,0
+cinnamon  chili,G,0,0,1
+clams,AP,0,0,1
+coconut  coconut,F,0,0,1
+coconut amino,C,1,1,0
+coconut amino,G,0,0,1
+cod/scrod fillet,AP,0,1,0
+collard greens,V,0,1,1
+corned beef ,AP,0,0,1
+corned beef  roast,AP,1,0,0
+crab  lump meat,AP,0,0,1
+cranberries,F,0,0,1
+crushed red,C,1,1,0
+cucumbers,V,1,0,1
+cucumbers  any,V,0,1,0
+cumin  curry,C,1,1,0
+cumin  curry,G,0,0,1
+deli meats ,AP,1,1,1
+dory fish fillet,AP,0,1,0
+eggplant,V,1,0,1
+eggs  whites,AP,1,1,0
+eggs  whole,AP,0,0,1
+endive,V,0,1,1
+extract,C,1,1,0
+extract,G,0,0,1
+fava beans,VP,1,0,0
+fennel,V,0,1,1
+figs,F,1,0,0
+flounder fillet,AP,0,1,0
+flour  pasta ,G,1,0,0
+fresh herbs: all,C,1,1,0
+fresh herbs: all,G,0,0,1
+ground cherry,V,0,0,1
+guava,F,1,0,0
+guinea fowl,AP,1,0,0
+haddock,AP,1,0,0
+halibut,AP,1,1,1
+hazelnuts ,FT,0,0,1
+hearts of palm,V,0,0,1
+hemp  pumpkin ,FT,0,0,1
+hemp milk ,VP,0,0,1
+herbal teas or,C,1,1,0
+herbal teas or,G,0,0,1
+herring,AP,0,0,1
+honeydew melon,F,1,0,0
+horseradish ,C,1,1,0
+horseradish ,G,0,0,1
+hummus,FT,0,0,1
+jalapeños,V,0,1,0
+jerky,AP,0,1,0
+jicama,V,1,1,1
+kale,V,1,1,1
+kamut: bagels,G,1,0,0
+ketchup  no sugar,C,1,0,0
+ketchup  no sugar,G,0,0,1
+beans,VP,1,0,1
+kiwis,F,1,0,0
+kohlrabi,V,0,0,1
+kumquats,F,1,0,0
+lamb,AP,0,0,1
+lamb  lean cuts,AP,0,1,0
+lean ground,AP,0,0,1
+leeks,V,1,1,1
+lemons,F,1,1,1
+lentils,VP,1,0,1
+lettuce,V,1,1,1
+limes,F,1,1,1
+liquid aminos ,C,1,1,0
+liquid aminos ,G,0,0,1
+liver,AP,0,0,1
+lobster meat,AP,0,0,1
+loganberries,F,1,0,0
+mangos,F,1,0,0
+mayonnaise ,FT,0,0,1
+meat,AP,1,1,0
+meat  lean ground,AP,1,1,0
+milk  cream  water,F,0,0,1
+millet,G,1,0,0
+mixed greens,V,1,1,1
+mulberries ,F,1,0,0
+mushrooms,V,1,1,1
+mustard ,G,0,0,1
+mustard greens,V,0,1,0
+mustard:,C,1,1,0
+natural,C,1,1,0
+natural,G,0,0,1
+oranges,F,1,0,0
+organic seasoning,C,1,0,0
+organic seasoning,C,0,0,1
+ostrich  elk,AP,0,1,0
+oysters,AP,0,1,1
+papaya,F,1,0,0
+parsnips,V,1,0,0
+paste  chipotle ,C,0,1,0
+peaches,F,1,0,1
+pears,F,1,0,0
+pecans  pine,FT,0,0,1
+pepper flakes ,C,1,1,0
+peppermint,C,1,1,0
+peppermint,G,0,0,1
+pepperoncini,V,1,1,1
+peppers,V,1,1,1
+peppers  cayenne ,C,0,1,0
+pero,C,1,1,0
+pero,G,0,0,1
+phase,FT,1,0,0
+pheasant,AP,1,0,0
+pickles  no sugar,C,1,1,0
+pickles  no sugar,G,0,0,1
+pineapples,F,1,0,0
+plums,F,0,0,1
+pollock fillet,AP,1,0,0
+pomegranates,F,1,0,0
+pork chops ,AP,0,0,1
+pork loin roast ,AP,0,1,1
+pork tenderloin,AP,1,1,0
+powder  crushed,G,0,0,1
+powder  nutmeg ,C,1,0,0
+powder  onion,G,0,0,1
+powder  raw,C,0,1,0
+powder  turmeric ,G,0,0,1
+powdered,C,0,1,0
+prepared,C,1,1,0
+pretzels  tortillas,G,1,0,0
+prickly pears,F,0,0,1
+pumpkin,V,1,0,0
+quinoa,G,1,0,0
+quinoa,C,0,0,1
+rabbit,AP,0,0,1
+radishes,V,1,1,1
+raspberries,F,1,0,0
+raspberries,F,0,0,1
+red pepper flakes ,G,0,0,1
+rhubarb,V,0,1,1
+rhubarb,F,0,0,1
+rice milk  plain,G,1,0,0
+roast,AP,0,0,1
+roast beef,AP,0,0,1
+rump roast  stew,AP,0,1,0
+rutabaga,V,1,0,0
+safflower,FT,0,0,1
+salmon  fresh ,AP,0,0,1
+salmon: nitratefree,AP,0,1,0
+salsa,C,1,0,0
+salsa,G,0,0,1
+salt  raw cacao,G,0,0,1
+salt  sea salt ,C,0,1,0
+sardines,AP,1,1,1
+scallops,AP,0,0,1
+sea bass fillet,AP,0,0,1
+sea salt  simply,C,1,0,0
+sea salt  simply,G,0,0,1
+seasoning,C,0,1,0
+seasonings:,C,1,1,0
+seasonings:,G,0,0,1
+seasonings: bragg,C,1,1,0
+seaweed,V,0,0,1
+seeds  raw: flax ,FT,0,0,1
+sesame  sunflower,FT,0,0,1
+sesame  toasted,FT,0,0,1
+sesame (asian),FT,0,0,1
+shallots,V,0,1,0
+shrimp,AP,0,0,1
+simply organic,C,0,1,0
+skate,AP,0,0,1
+skinless dark,AP,0,0,1
+skinless white,AP,0,1,0
+smoked,AP,0,1,1
+sole fillet,AP,1,1,0
+spelt pasta ,G,1,0,0
+spinach,V,1,1,1
+spirulina,V,1,1,1
+sprouted-grain:,C,0,0,1
+sprouted grain,G,1,0,0
+sprouts,V,1,0,1
+squash,V,1,0,1
+steak,AP,1,0,0
+steak  london,AP,0,1,0
+steaks  lean,AP,0,1,0
+stevia  xylitol,C,1,1,0
+stevia  xylitol,G,0,0,1
+strawberries,F,1,0,0
+strip  sirloin  shell,AP,0,1,0
+sugar added,G,0,0,1
+sweet potatoes,V,1,0,1
+sweeteners:,C,1,1,0
+sweeteners:,G,0,0,1
+swiss chard,V,0,1,0
+syrup,C,1,0,0
+syrup,G,0,0,1
+tabasco,C,0,1,0
+tahini,FT,0,0,1
+tangerines,F,1,0,0
+tapioca,G,1,0,0
+teff,G,1,0,0
+tenderloin,AP,0,1,0
+tomatillo fresh,V,0,0,1
+tomato paste,C,1,0,0
+tomatoes,V,1,0,1
+tops,V,1,0,0
+tortillas,G,1,0,0
+tortillas,C,0,0,1
+triticale,G,1,0,0
+trout,AP,0,0,1
+tuna,AP,1,1,1
+turkey ,AP,1,1,1
+turkey bacon ,AP,1,1,1
+turnips,V,1,0,0
+types,C,1,1,0
+types,G,0,0,1
+vanilla or,C,1,1,0
+vanilla or,G,0,0,1
+vegetable*,C,1,1,0
+vegetable*,G,0,0,1
+vinegar: any type,C,1,1,0
+vinegar: any type,G,0,0,1
+walnuts,FT,0,0,1
+watercress,V,0,1,1
+watermelon,F,1,0,0
+white,C,0,0,1
+white peppers ,C,1,0,0
+white peppers ,G,0,0,1
+wild rice,G,1,0,1
+wild rice,C,0,0,1
+yams,V,1,0,1
+zucchini,V,1,0,1

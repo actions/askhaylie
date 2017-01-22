@@ -5,6 +5,7 @@ import com.amazon.speech.slu.Slot
 import com.amazon.speech.speechlet._
 import com.amazon.speech.ui.{PlainTextOutputSpeech, Reprompt, SimpleCard}
 import org.joda.time.{DateTime, DateTimeZone}
+import org.slf4j.LoggerFactory
 
 import scala.collection.JavaConversions._
 import scala.collection.JavaConverters._
@@ -29,45 +30,54 @@ object Nutritionist {
     case _  => throw new IllegalArgumentException(s"Don't know how to conver string $s to boolean")
   }
 
-  val foods : Map[String, (String, Boolean, Boolean, Boolean)]  = Source.fromInputStream(this.getClass.getResourceAsStream("food.csv")).getLines().map(_.split(",")).collect{
-    case Array(food, kind, p1, p2, p3) => food -> (kind, stringToBool(p1), stringToBool(p2), stringToBool(p3))
-  }.toMap
+  val foods : Map[String, (String, Boolean, Boolean, Boolean)]  = Source
+    .fromInputStream(this.getClass.getClassLoader.getResourceAsStream("food.csv"))
+    .getLines()
+    .map(_.split(",")).collect{
+      case Array(food, kind, p1, p2, p3) => food -> (kind, stringToBool(p1), stringToBool(p2), stringToBool(p3))
+    }.toMap
 
-  def lookupFood(food: String ): Option[(String, Boolean, Boolean, Boolean)]={
-    val words = food.split(" ")
-    if(words.length==1){
+  def lookupFood(food: String ): Option[(String, Boolean, Boolean, Boolean)]= {
+    val words = food.split(" ").filter(_.nonEmpty)
+    if (words.length > 1) {
       foods.get(words(0))
     } else {
-      None
+      foods.get(food)
     }
   }
 
-  def 
+  val phases = Set("P1", "P2", "P3")
+
 
 }
 
 class Nutritionist extends SpeechletV2{
 
+  private val log = LoggerFactory.getLogger(classOf[Nutritionist])
+
   import Nutritionist._
 
-
-
   override def onSessionEnded(requestEnvelope: SpeechletRequestEnvelope[SessionEndedRequest]): Unit = {
-
+    log.info(s"onSessionEnded requestId=${requestEnvelope.getRequest.getRequestId}, sessionId=${requestEnvelope.getSession.getSessionId}")
   }
 
   override def onIntent(requestEnvelope: SpeechletRequestEnvelope[IntentRequest]): SpeechletResponse = {
+    log.info(s"User: ${requestEnvelope.getSession.getUser.getUserId}")
     val intent =requestEnvelope.getRequest.getIntent
-    requestEnvelope.getSession.getUser.getUserId
     intent.getName match {
       case "CanIEatThatIntent" =>
         val (food, phase) = intent.getSlots.foldLeft(("", currentPhase())){
           case (params,("Food", slot)) => params.copy(_1=slot.getValue)
-          case (params,("Phase", slot)) => params.copy(_2=slot.getValue)
+          case (params,("Phase", slot)) if phases.contains(slot.getValue) =>  params.copy(_2=slot.getValue)
+          case (params,_) => params
         }
+        //log.info(s"Got $food on phase $phase")
         lookupFood(food) match {
           case Some((kind, p1, p2,p3))=>
-            getSpeechletResponse("It looks like the food you are looking for is not on the list.", "", false)
+            if((p1 && phase=="P1") | (p2 && phase=="P2") | (p3 && phase=="P3"))
+              getSpeechletResponse(s"Yes, you are allowed to eat $food during $phase.", "", false)
+            else
+              getSpeechletResponse(s"No, you are not allowed to eat $food during $phase.", "", false)
           case None => getSpeechletResponse("It looks like the food you are looking for is not on the list.", "", false)
         }
       case _ => getSpeechletResponse("It looks like the food you are looking for is not on the list.", "", false)
@@ -75,43 +85,17 @@ class Nutritionist extends SpeechletV2{
 
   }
 
-  val t=Array("V", "F", "AP", "VP", "C", "G", "FT")
-
-  def splitArr(arr: Array[String])=arr.foldLeft((Array.fill(7)(Seq[String]()),0)){
-    case ((categories, categoryId), line) if line.toUpperCase==line =>
-      (categories, categoryId + (if(categories(categoryId).isEmpty) 0 else 1))
-    case ((categories, categoryId), line) =>
-      categories(categoryId)=categories(categoryId):+line
-      (categories, categoryId)
+  override def onLaunch(requestEnvelope: SpeechletRequestEnvelope[LaunchRequest]) ={
+    log.info(s"onLaunch requestId=${requestEnvelope.getRequest.getRequestId}, sessionId=${requestEnvelope.getSession.getSessionId}")
+    val pt = new PlainTextOutputSpeech()
+    pt.setText("Hi, this is Haylie. Welcome.")
+    SpeechletResponse.newTellResponse(pt)
   }
 
-  case class Food(name: String, kind: String, phase: String)
-
-  def processRawData(s: String, phase: String) = {
-    val (categoris, i) = splitArr(s.split("\n").filter(_.length>2))
-    categoris.zipWithIndex.flatMap{case(names, i)=> names.map{Food(_,t(i), phase)}}
-  }
-
-  def phaseProcess(s: String)=s.split(",").map(_.replace("P", "").toInt-1).foldLeft(new Array[Int](3)){case(arr, index) =>
-      arr(index)=1
-      arr
-    }
-
-  val preprocessed: Seq[(String,String, String)]
-
-  preprocessed.map{x=> x.copy(_1=x._1.replace(","," "), _3 = phaseProcess(x._3).mkString(","))}.map{case(name, kind, phase)=> s"$name,$kind,$phase"}
-
-
-
-  override def onLaunch(requestEnvelope: SpeechletRequestEnvelope[LaunchRequest]): SpeechletResponse = {
-
-  }
 
   override def onSessionStarted(requestEnvelope: SpeechletRequestEnvelope[SessionStartedRequest]): Unit = {
-
+    log.info(s"onSessionStarted requestId=${requestEnvelope.getRequest.getRequestId}, sessionId=${requestEnvelope.getSession.getSessionId}")
   }
-
-
 
   private def getSpeechletResponse(speechText: String, repromptText: String, isAskResponse: Boolean): SpeechletResponse = {
     // Create the Simple card SimpleCard.
